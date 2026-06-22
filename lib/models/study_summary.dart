@@ -50,7 +50,6 @@ class StudySummary {
     );
   }
 
-  // המרה לפורמט שמירה ב-Firestore
   Map<String, dynamic> toJson() {
     return {
       'title': title,
